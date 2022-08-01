@@ -21,6 +21,8 @@ Assets > Import Package > Custom Package... > Open `rectangular-tilemap-pathfind
 2. `Grid` 하위 타일맵에 이동 가능한 타일을 타일 팔레트를 이용해 배치합니다.  
 (예제의 `Walkable` 이 그러한 타일맵입니다.)
 
+3. 인스펙터에서 `AStarGrid`의 `Walkable Map` 변수에 2번에서 사용한 타일맵을 할당합니다.
+
 ### 런타임
 1. 월드 좌표 또는 좌표를 통해 최단 경로를 찾을 시작점과 끝점의 `AStarNode`를 얻습니다. 이미 두 `AStarNode`가 있으면 다음 단계를 진행합니다.
 
